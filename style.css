@@ -1,0 +1,355 @@
+
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            /* Light gray background color */
+            color: #333;
+            /* Dark text color */
+            margin-bottom: 60px;
+            /* Ensure space for footer */
+        }
+
+        .navbar {
+            background-color: #333;
+            /* Dark background color */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            color: #ffc107;
+            /* Yellow text color */
+        }
+
+        .navbar-brand img {
+            max-height: 50px;
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            /* White text color */
+        }
+
+        .nav-link:hover {
+            color: #ffc107 !important;
+            /* Yellow accent color */
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-image: url('./image/hemant-latawa-IfQlwNqJqV8-unsplash.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            /* Light text color */
+            text-align: center;
+            padding: 200px 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+
+        /* About Us Section */
+        .about-section {
+            padding: 80px 0;
+            background-color: #fff;
+            /* White background color */
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            color: #333;
+            /* Dark text color */
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #666;
+            text-align: justify;
+            /* Medium gray text color */
+        }
+
+        /* Menu Section */
+        .menu-section {
+            padding: 80px 0;
+            text-align: center;
+            background-color: #f0f0f0;
+            /* Light gray background color */
+        }
+
+        .menu-section h2 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            color: #333;
+            /* Dark text color */
+        }
+
+        .menu-item {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+            background-color: #fff;
+            /* White background color */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .menu-item img {
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover img {
+            transform: scale(1.1);
+            /* Scale image on hover */
+        }
+
+        .menu-item .card-body {
+            padding: 1.25rem;
+        }
+
+        .menu-item h5 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: #333;
+            /* Dark text color */
+        }
+
+        .menu-item .price {
+            font-size: 1.2rem;
+            color: #777;
+            /* Light gray text color */
+        }
+        .footer-links a {
+            color: #f8f9fa;
+            margin: 0 10px;
+          }
+          .filter-buttons {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .filter-buttons .btn {
+            margin: 0 5px;
+          }
+
+        /* Gallery Styles */
+        .gallery-section {
+            padding: 80px 0;
+            background-color: #fff;
+            /* White background color */
+            text-align: center;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+            background-color: #f0f0f0;
+            /* Light gray background color */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .gallery-item img {
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+            /* Scale image on hover */
+        }
+
+        /* Events Section */
+        .events-section {
+            padding: 80px 0;
+            background-color: #f0f0f0;
+            /* Light gray background color */
+            text-align: center;
+        }
+
+        .events-section h2 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            color: #333;
+            /* Dark text color */
+        }
+
+        .event-item {
+            margin-bottom: 30px;
+            background-color: #fff;
+            /* White background color */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .event-item .card-body {
+            padding: 1.25rem;
+        }
+
+        .event-item h5 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: #333;
+            /* Dark text color */
+        }
+
+        .event-item .date {
+            font-size: 1.2rem;
+            color: #777;
+            /* Light gray text color */
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 80px 0;
+            background-color: #fff;
+            /* White background color */
+            text-align: center;
+        }
+
+        .testimonial {
+            background-color: #f0f0f0;
+            /* Light gray background color */
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .testimonial p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+            /* Medium gray text color */
+        }
+
+        .testimonial .author {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+            /* Dark text color */
+        }
+
+        /* Contact Section Styles */
+        .contact-section {
+            padding: 80px 0;
+            text-align: center;
+            background-color: #333;
+            /* Dark background color */
+            color: #fff;
+            /* White text color */
+        }
+
+        .contact-info {
+            margin-bottom: 40px;
+        }
+
+        .contact-info h3 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border-radius: 0;
+          /* Remove default border-radius */
+            border-color: #ccc;
+            /* Light border color */
+            font-size: 1.1rem;
+        }
+
+        .form-control:focus {
+            border-color: #ffc107;
+            /* Yellow focus border color */
+            box-shadow: none;
+            /* Remove focus shadow */
+        }
+
+        .form-control::placeholder {
+            color: #999;
+            /* Placeholder text color */
+        }
+
+        .btn-primary {
+            background-color: #ffc107;
+            /* Yellow background color */
+            border-color: #ffc107;
+            /* Yellow border color */
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffad00;
+            /* Darker yellow background color on hover */
+            border-color: #ffad00;
+            /* Darker yellow border color on hover */
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            /* Dark background color */
+            color: #fff;
+            /* White text color */
+            padding: 30px 0;
+           position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .footer p {
+            margin-bottom: 0;
+        }
+
+        .footer-links {
+            text-align: center;
+        }
+
+        .footer-links a {
+            color: #fff;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #ffc107;
+            /* Yellow accent color on hover */
+        }
+    
